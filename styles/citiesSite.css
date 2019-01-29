@@ -1,10 +1,7 @@
-
-
 body {
     background-color: #fff;
     font-family: "Nunito", sans-serif;
-    margin-bottom: 10px;
-  
+    margin-bottom: 10px; 
 }
 
 .headerImage {
@@ -21,15 +18,12 @@ body {
     margin:0;
     top: 200px;
     color: #090b99;
-    /* background: rgba(0,0,0,.7); */
     background-color: rgba(208, 211, 220, 0.5);
 }
 
-
 #mainNavbar .navbar-brand {
     color: #fff;
-    font-weight: bold;
-   
+    font-weight: bold;  
 }
 
 #mainNavbar {
@@ -41,10 +35,10 @@ body {
 #mainNavbar .nav-link {
     color: #fff;
 }
+
 #mainNavbar .nav-link:hover {
     color: #090b99;
 }
-
 
 #headingGroup span {
     color:#EA1C2C;
@@ -60,7 +54,6 @@ body {
     transition: background 500ms;
 }
 
-
 .textDiv h2 {
     color:#090b99;
     font-weight: 100;
@@ -74,12 +67,9 @@ body {
     line-height: 2;
 }
 
-
 .contentDiv {
     margin-top: 100px;
 }
-
-
 
 @media (max-width: 1200px) {  /* at less than 1200px */
     #headingGroup h1 {
@@ -90,7 +80,6 @@ body {
 
 @media (max-width: 765px){
     #mainNavbar {
-        /* background-color: rgba(0, 0, 0, 0.9); */
         background-color: #d1d4dd;
     }
 }
