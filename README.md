@@ -4,5 +4,5 @@ It's a cities site I plan to expand by adding day/ night mode which toggles the 
 Will probably include javascript as well.
 Aiming for smooth transition with pictures and colors updating depending on the selected mode (day/ night).
 
-#How to open
+# How to open
 Clone repository and open citiesSite.html
