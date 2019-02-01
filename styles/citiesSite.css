@@ -71,6 +71,50 @@ body {
     margin: 40px 0px;
 }
 
+/* Dark mode styles */
+
+body.night {
+    background-color: #0f0f0f;
+}
+
+.night #headerH1 {
+    color: #fff;
+    background-color:  rgba(29, 28, 28, .7); 
+}
+
+.night #mainNavbar .navbar-brand {
+    color: #fff; 
+}
+
+.night #mainNavbar {
+    background-color: rgba(29, 28, 28, .7);
+}
+
+.night #mainNavbar .nav-link {
+    color: #fff;
+}
+
+.night #mainNavbar .nav-link:hover {
+    color: #620786;
+}
+
+.night .navbar.scrolled {
+    background-color: #11023a !important;
+}
+
+.night .textDiv h2 {
+    font-family: 'anuratiregular';
+    color: #620786;
+}
+.night .fa-ellipsis-v {
+    color: #fff;
+}
+.night .textDiv p {
+    color: #094399;
+}
+
+
+
 
 @media (max-width: 1200px) {  /* at less than 1200px */
     #headingGroup h1 {
@@ -81,7 +125,11 @@ body {
 
 @media (max-width: 765px){
     #mainNavbar {
-        /* background-color: #d1d4dd; */
+        background-color: #d0d3dc;
+    }
+
+    .night #mainNavbar {
+        background-color: #1d1c1c;
     }
 } 
 

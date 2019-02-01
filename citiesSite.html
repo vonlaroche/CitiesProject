@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="styles/citiesSite.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-        crossorigin="anonymous">
-
+        crossorigin="anonymous"> 
     <title>Cities</title>
 </head>
 
@@ -26,10 +25,10 @@
         <div class="collapse navbar-collapse" id="navLinks">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="" class="nav-link"><i class="fas fa-sun"></i>DAY MODE</a>
+                    <a href="" class="nav-link dayBtn"><i class="fas fa-sun"></i>DAY MODE</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link"><i class="fas fa-moon"></i>NIGHT MODE</a>
+                    <a href="" class="nav-link nightBtn"><i class="fas fa-moon"></i>NIGHT MODE</a>
                 </li>
                 <li class="nav-item">
                     <a href="about.html" class="nav-link">ABOUT</a>
@@ -52,7 +51,7 @@
     <section class="container-fluid px-0">
         <div class="row align-items-center contentDiv no-gutters">
             <div class="col-md-6 order-2 order-md-1 px-0">
-                <img class="img-fluid" src="images/day/tokyoday1.jpg" alt="">
+                <img class="img-fluid imgTok" src="images/day/tokyoday1.jpg" alt="">
             </div>
             <div class="col-md-6 text-center order-1 order-md-2 textDiv mb-5 mb-md-0">
                 <div class="row justify-content-center no-gutters">
@@ -94,13 +93,13 @@
 
             </div>
             <div class="col-md-6 px-0">
-                <img class="img-fluid" src="images/day/amsterdamday1.jpg" alt="">
+                <img class="img-fluid imgAms" src="images/day/amsterdamday1.jpg" alt="">
             </div>
         </div>
 
         <div class="row align-items-center contentDiv no-gutters">
             <div class="col-md-6 order-2 order-md-1 px-0">
-                <img class="img-fluid" src="images/day/zagrebday1.jpg" alt="">
+                <img class="img-fluid imgZg" src="images/day/zagrebday1.jpg" alt="">
             </div>
             <div class="col-md-6 text-center order-1 order-md-2 textDiv mb-5 mb-md-0">
                 <div class="row justify-content-center no-gutters">
@@ -139,7 +138,7 @@
 
             </div>
             <div class="col-md-6 px-0">
-                <img class="img-fluid" src="images/day/stockholmday2.jpg" alt="">
+                <img class="img-fluid imgStc" src="images/day/stockholmday2.jpg" alt="">
             </div>
         </div>
 
@@ -155,6 +154,9 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+                   
+    <!-- Script for toggling modes-->  
+    <script src="toggleNight.js"></script> 
 
     <script>
         $(function () {
