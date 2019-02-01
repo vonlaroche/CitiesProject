@@ -74,6 +74,10 @@ body {
     margin-top: 100px;
 }
 
+.contentDiv.alignRight {
+    text-align: right;
+}
+
 .aboutDiv {
     margin: 40px 0px;
 }
@@ -117,7 +121,7 @@ body.night {
     color: #fff;
 }
 .night .textDiv p {
-    color: #094399;
+    color: #0350b4;
 }
 
 
