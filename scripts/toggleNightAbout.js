@@ -1,8 +1,7 @@
 var body = document.body;
-var nightBtn = document.getElementsByClassName("nightBtn")[0];
-var dayBtn = document.getElementsByClassName("dayBtn")[0];
-var headerImage = document.getElementsByClassName("headerImage")[0];
-
+var nightBtn = document.querySelector(".nightBtn");
+var dayBtn = document.querySelector(".dayBtn");
+var headerImage = document.querySelector(".headerImage");
 
 nightBtn.addEventListener("click", function(){
     event.preventDefault();

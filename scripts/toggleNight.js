@@ -1,11 +1,11 @@
 var body = document.body;
-var nightBtn = document.getElementsByClassName("nightBtn")[0];
-var dayBtn = document.getElementsByClassName("dayBtn")[0];
-var headerImage = document.getElementsByClassName("headerImage")[0];
-var imgTok = document.getElementsByClassName("imgTok")[0];
-var imgAms = document.getElementsByClassName("imgAms")[0];
-var imgZg = document.getElementsByClassName("imgZg")[0];
-var imgStc = document.getElementsByClassName("imgStc")[0];
+var nightBtn = document.querySelector(".nightBtn");
+var dayBtn = document.querySelector(".dayBtn");
+var headerImage = document.querySelector(".headerImage");
+var imgTok = document.querySelector(".imgTok");
+var imgAms = document.querySelector(".imgAms");
+var imgZg = document.querySelector(".imgZg");
+var imgStc = document.querySelector(".imgStc");
 
 nightBtn.addEventListener("click", function(){
     event.preventDefault();
