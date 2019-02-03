@@ -73,8 +73,9 @@ body {
 }
 
 .textDiv p {
-    color: #99091c;
-    font-weight: 100;
+    /* color: #99091c; */
+    color: #c20707;
+    font-weight: 100; 
     font-size: 1.125rem;
     line-height: 2;
 }
@@ -166,11 +167,17 @@ body.night {
     color: #fff;
 }
 .night .textDiv p {
-    color: #0350b4;
+    font-style: italic;
+    color: #0350b4; 
 }
 
 
+@media (min-width: 1810px) {
+    .imgTokNight, .imgZgNight {
+        left: 0;
+    }
 
+}
 
 @media (max-width: 1200px) {  /* at less than 1200px */
     #headingGroup h1 {
