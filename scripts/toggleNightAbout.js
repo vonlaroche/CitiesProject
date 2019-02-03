@@ -4,7 +4,7 @@ var dayBtn = document.querySelector(".dayBtn");
 var headerImage = document.querySelector(".headerImage");
 var headerImageNight = document.querySelector(".headerImageNight");
 
-nightBtn.addEventListener("click", function(){
+nightBtn.addEventListener("click", function(event){
     event.preventDefault();
     body.classList.add("night");
     headerImage.classList.remove("opaque");
@@ -13,7 +13,7 @@ nightBtn.addEventListener("click", function(){
     headerImage.classList.add("opaque");
 });
 
-dayBtn.addEventListener("click", function(){
+dayBtn.addEventListener("click", function(event){
     event.preventDefault();
     body.classList.remove("night");
     headerImage.classList.remove("transparent");
