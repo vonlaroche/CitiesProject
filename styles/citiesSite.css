@@ -13,6 +13,7 @@ body {
     height: 400px;
     object-fit: cover;
     object-position: 0 90%;  
+    opacity: 1;
 }
 
 .headerImageNight {
@@ -22,6 +23,7 @@ body {
     top: 0;
     object-fit: cover;
     object-position: 0 90%;  
+    opacity: 0;
 }
 
 #headerH1 {
@@ -105,26 +107,33 @@ body {
 .imgTokNight, .imgZgNight {
     position: absolute;
     top: 0;
+    opacity: 0;
 }
 
 .imgAmsNight {
     position: absolute;
     right: 0;
     top: 0;
+    opacity: 0;
 }
 
 .imgStcNight {
     position: absolute;
     right: 0;
     top: 0;
+    opacity: 0;
 }
 
-.opaque {
+.imgAms, .imgTok, .imgStc, .imgZg {
     opacity: 1;
 }
 
-.transparent {
+.night .imgAms, .night .imgTok, .night .imgStc, .night .imgZg, .night .headerImage {
     opacity: 0;
+}
+
+.night .imgAmsNight, .night .imgStcNight, .night .imgTokNight, .night .imgZgNight, .night .headerImageNight {
+    opacity: 1;
 }
 
 
