@@ -34,8 +34,9 @@ body {
     top: 200px;
     color: #090b99;
     background-color: rgba(208, 211, 220, 0.6);
-    font-style: italic;
-    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 2.4em;
     transition: all 500ms;
 }
 
@@ -74,8 +75,13 @@ body {
     font-size: 2.5rem;
 }
 
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 .textDiv p {
-    /* color: #99091c; */
     color: #c20707;
     font-weight: 100; 
     font-size: 1.125rem;
@@ -146,6 +152,8 @@ body.night {
 .night #headerH1 {
     color: #fff;
     background-color:  rgba(29, 28, 28, .7); 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2em;
 }
 
 .night #mainNavbar .navbar-brand {
@@ -172,6 +180,13 @@ body.night {
     font-family: 'anuratiregular';
     color: #620786;
 }
+
+.night hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(190, 11, 182, 0.75), rgba(0, 0, 0, 0));
+}
+
 .night .fa-ellipsis-v {
     color: #fff;
 }
