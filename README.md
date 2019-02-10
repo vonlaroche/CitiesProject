@@ -5,4 +5,4 @@ Will probably include javascript as well.
 Aiming for smooth transition with pictures and colors updating depending on the selected mode (day/ night).
 
 # How to open
-Clone repository and open citiesSite.html
+Clone repository and open index.html or go to https://vonlaroche.github.io/CitiesProject to view the site
